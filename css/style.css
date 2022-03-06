@@ -85,11 +85,58 @@ img{
 
   #why.container,
   #lezioni.container{
-    background-color: #f2f2cd;
+    background-color: #e4e4c3;
   }
 
     img {
-      height: 150px;
+      height: 130px;
+      margin-top:30px;
+    }
+
+    #why .row > .first,
+    #why .row > .second,
+    #why .row > .third {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    padding: 15px;
+  }
+  
+  .row{
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #lezioni .row > .left, 
+  #lezioni .row > .right, 
+  #steps .row > .left,
+  #steps .row > .central{
+    width: 50%;
+    padding:0 10px;
+  }
+
+  #steps .row > .right{
+    width:40%;
+    margin: 0 auto;
+    float: none;
+  }
+
+  #why.container,
+  #lezioni.container{
+    background-color: #ffffbd;
+  }
+
+    img {
+      height: 160px;
       margin-top:30px;
     }
 
