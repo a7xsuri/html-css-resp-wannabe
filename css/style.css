@@ -60,4 +60,29 @@ img{
   clear:both;
 }
 
+@media screen and (max-width:768px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    padding: 15px;
+  }
+  
+  .row{
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #lezioni .row > .left, 
+  #lezioni .row > .right, 
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    width: 100%;
+  }
+  
+}
+
 
