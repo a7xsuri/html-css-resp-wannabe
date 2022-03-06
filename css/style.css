@@ -60,7 +60,7 @@ img{
   clear:both;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:420px) {
   * {
     box-sizing: border-box;
     margin: 0;
@@ -82,7 +82,23 @@ img{
   #steps .row > .right{
     width: 100%;
   }
-  
+
+  #why.container,
+  #lezioni.container{
+    background-color: #f2f2cd;
+  }
+
+    img {
+      height: 150px;
+      margin-top:30px;
+    }
+
+    #why .row > .first,
+    #why .row > .second,
+    #why .row > .third {
+      width: 100%;
+      margin-top: 0;
+    }
 }
 
 
